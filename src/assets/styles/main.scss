@@ -1,0 +1,37 @@
+@use "ant";
+@use "nprogress";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif !important;
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(8, 135, 129, 0.6);
+    border-radius: 4px;
+    border: none;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #088781;
+  }
+}
+
+body {
+  //background-color: var(--gray-color-100);
+}
+
+

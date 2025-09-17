@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #088781;
+  --gray-color-50: #F9FBFB;
+  --gray-color-100: #F3F6F6;
+  --gray-color-200: #E5EBEB;
+}
+
+$colors: (
+  "primary-color": var(--primary-color),
+  "gray-color-50": var(--gray-color-50),
+  "gray-color-100": var(--gray-color-100),
+  "gray-color-200": var(--gray-color-200),
+);

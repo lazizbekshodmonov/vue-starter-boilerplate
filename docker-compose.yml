@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: frontend
+    ports:
+      - "8080:80"
+    networks:
+      - brb-network
+
+networks:
+  brb-network:
+    external: true

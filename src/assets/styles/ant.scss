@@ -1,0 +1,45 @@
+.ant-btn {
+  @apply shadow-none !important;
+}
+
+.custom-primary-tab {
+  .ant-tabs-nav-list {
+    @apply w-full gap-2;
+    .ant-tabs-tab {
+      @apply flex-1 m-0 flex justify-center rounded-xl transition-all;
+      .ant-tabs-tab-btn {
+        @apply font-medium transition-all;
+      }
+    }
+
+    .ant-tabs-tab-active {
+      @apply bg-primary_color text-white;
+      .ant-tabs-tab-btn {
+        @apply bg-primary_color text-white ;
+      }
+    }
+  }
+
+  .ant-tabs-nav-operations {
+    @apply hidden !important;
+  }
+
+  .ant-tabs-ink-bar {
+    @apply hidden !important;
+  }
+
+  .ant-tabs-nav {
+    &::before {
+      @apply hidden !important;
+    }
+  }
+}
+
+
+.custom-description {
+  @apply mb-2;
+  .ant-descriptions-item {
+    @apply border-b border-dashed border-gray-400;
+  }
+}
+
